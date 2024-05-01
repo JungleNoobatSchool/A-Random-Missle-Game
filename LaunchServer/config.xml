@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <config>
     <Port>30069</Port>
-    <ServerEmail>Tobster86@gmail.com</ServerEmail>
+    <ServerEmail>jessie.a.0801@gmail.com</ServerEmail>
     <DebugFlags>1</DebugFlags>
-    <StartingWealth>10000</StartingWealth>
-    <RespawnWealth>0</RespawnWealth>
+    <StartingWealth>100000</StartingWealth>
+    <RespawnWealth>10</RespawnWealth>
     <RespawnTime>3600000</RespawnTime>
     <RespawnProtectionTime>172800000</RespawnProtectionTime>
     <NoobProtectionTime>1209600000</NoobProtectionTime>
-    <HourlyWealth>350</HourlyWealth>
-    <CMSSystemCost>600</CMSSystemCost>
-    <SAMSystemCost>400</SAMSystemCost>
-    <CMSStructureCost>700</CMSStructureCost>
-    <NCMSStructureCost>2000</NCMSStructureCost>
-    <SAMStructureCost>500</SAMStructureCost>
-    <SentryGunStructureCost>350</SentryGunStructureCost>
-    <OreMineStructureCost>800</OreMineStructureCost>
-    <InterceptorBaseHitChance>0.6</InterceptorBaseHitChance>
-    <RubbleMinValue>0.4</RubbleMinValue>
-    <RubbleMaxValue>0.7</RubbleMaxValue>
+    <HourlyWealth>3500</HourlyWealth>
+    <CMSSystemCost>60000</CMSSystemCost>
+    <SAMSystemCost>40000</SAMSystemCost>
+    <CMSStructureCost>7000</CMSStructureCost>
+    <NCMSStructureCost>20000</NCMSStructureCost>
+    <SAMStructureCost>5000</SAMStructureCost>
+    <SentryGunStructureCost>3500</SentryGunStructureCost>
+    <OreMineStructureCost>8000</OreMineStructureCost>
+    <InterceptorBaseHitChance>0.7</InterceptorBaseHitChance>
+    <RubbleMinValue>0.3</RubbleMinValue>
+    <RubbleMaxValue>0.8</RubbleMaxValue>
     <RubbleMinTime>172800000</RubbleMinTime>
     <RubbleMaxTime>432000000</RubbleMaxTime>
-    <StructureSeparation>0.1</StructureSeparation>
-    <PlayerBaseHP>200</PlayerBaseHP>
-    <StructureBaseHP>100</StructureBaseHP>
-    <StructureBootTime>1800000</StructureBootTime>
-    <InitialCMSSlots>3</InitialCMSSlots>
-    <InitialSAMSlots>6</InitialSAMSlots>
+    <StructureSeparation>0.2</StructureSeparation>
+    <PlayerBaseHP>250</PlayerBaseHP>
+    <StructureBaseHP>800</StructureBaseHP>
+    <StructureBootTime>2600000</StructureBootTime>
+    <InitialCMSSlots>6</InitialCMSSlots>
+    <InitialSAMSlots>12</InitialSAMSlots>
     <RequiredAccuracy>0.25</RequiredAccuracy>
     <MaxRadiationTime>259200000</MaxRadiationTime>
     <MinRadiationTime>86400000</MinRadiationTime>
-    <MissileSlotUpgradeBaseCost>500</MissileSlotUpgradeBaseCost>
+    <MissileSlotUpgradeBaseCost>50000</MissileSlotUpgradeBaseCost>
     <MissileSlotUpgradeCount>3</MissileSlotUpgradeCount>
-    <ResaleValue>0.5</ResaleValue>
+    <ResaleValue>0.8</ResaleValue>
     <DecommissionTime>1800000</DecommissionTime>
     <ReloadTimeBase>120000</ReloadTimeBase>
     <ReloadTimeStage1>60000</ReloadTimeStage1>
@@ -41,11 +41,11 @@
     <ReloadStage1Cost>500</ReloadStage1Cost>
     <ReloadStage2Cost>1000</ReloadStage2Cost>
     <ReloadStage3Cost>2000</ReloadStage3Cost>
-    <RepairSalvageDistance>0.1</RepairSalvageDistance>
-    <MissileSiteMaintenanceCost>25</MissileSiteMaintenanceCost>
-    <SAMSiteMaintenanceCost>15</SAMSiteMaintenanceCost>
-    <SentryGunMaintenanceCost>10</SentryGunMaintenanceCost>
-    <OreMineMaintenanceCost>5</OreMineMaintenanceCost>
+    <RepairSalvageDistance>0.2</RepairSalvageDistance>
+    <MissileSiteMaintenanceCost>250</MissileSiteMaintenanceCost>
+    <SAMSiteMaintenanceCost>150</SAMSiteMaintenanceCost>
+    <SentryGunMaintenanceCost>100</SentryGunMaintenanceCost>
+    <OreMineMaintenanceCost>50</OreMineMaintenanceCost>
     <ChampionPrize>10000</ChampionPrize>
     <VeteranPrizeMax>5000</VeteranPrizeMax>
     <VeteranPrizeMin>500</VeteranPrizeMin>
@@ -58,27 +58,27 @@
     <PointsDying>-500</PointsDying>
     <HealthInterval>900000</HealthInterval>
     <RadiationInterval>360000</RadiationInterval>
-    <PlayerRepairCost>15</PlayerRepairCost>
-    <StructureRepairCost>10</StructureRepairCost>
+    <PlayerRepairCost>150</PlayerRepairCost>
+    <StructureRepairCost>350</StructureRepairCost>
     <AWOLTime>604800000</AWOLTime>
-    <RemoveTime>1209600000</RemoveTime>
+    <RemoveTime>12096000000</RemoveTime>
     <NukeUpgradeCost>1500</NukeUpgradeCost>
     <AllianceCooloffTime>43200000</AllianceCooloffTime>
-    <MissileNuclearCost>450</MissileNuclearCost>
-    <MissileTrackingCost>150</MissileTrackingCost>
-    <MissileECMCost>200</MissileECMCost>
+    <MissileNuclearCost>4500</MissileNuclearCost>
+    <MissileTrackingCost>1500</MissileTrackingCost>
+    <MissileECMCost>2000</MissileECMCost>
     <EMPChance>0.5</EMPChance>
     <EMPRadiusMultiplier>10</EMPRadiusMultiplier>
     <ECMInterceptorChanceReduction>0.2</ECMInterceptorChanceReduction>
     <ManualInterceptorChanceIncrease>0.15</ManualInterceptorChanceIncrease>
-    <SentryGunReloadTime>3000</SentryGunReloadTime>
+    <SentryGunReloadTime>30</SentryGunReloadTime>
     <SentryGunRange>1.0</SentryGunRange>
-    <SentryGunHitChance>0.3</SentryGunHitChance>
-    <OreMineRadius>2.0</OreMineRadius>
-    <MaxOreValue>1500</MaxOreValue>
+    <SentryGunHitChance>0.2</SentryGunHitChance>
+    <OreMineRadius>3.0</OreMineRadius>
+    <MaxOreValue>15000</MaxOreValue>
     <OreMineGenerateTime>3600000</OreMineGenerateTime>
-    <OreMinExpiry>14400000</OreMinExpiry>
-    <OreMaxExpiry>57600000</OreMaxExpiry>
+    <OreMinExpiry>144000000</OreMinExpiry>
+    <OreMaxExpiry>576000000</OreMaxExpiry>
     <MissileSpeedIndexCost>100</MissileSpeedIndexCost>
     <MissileSpeedIndexCostPow>1.5</MissileSpeedIndexCostPow>
     <MissileRangeIndexCost>50</MissileRangeIndexCost>
@@ -95,16 +95,16 @@
     <InterceptorRangeIndexCostPow>1.25</InterceptorRangeIndexCostPow>
     <MissilePrepTimePerMagnitude>2</MissilePrepTimePerMagnitude>
     <InterceptorPrepTimePerMagnitude>2</InterceptorPrepTimePerMagnitude>
-    <HourlyBonusDiplomaticPresence>50</HourlyBonusDiplomaticPresence>
-    <HourlyBonusPoliticalEngagement>25</HourlyBonusPoliticalEngagement>
-    <HourlyBonusDefenderOfTheNation>50</HourlyBonusDefenderOfTheNation>
-    <HourlyBonusNuclearSuperpower>25</HourlyBonusNuclearSuperpower>
-    <HourlyBonusWeeklyKillsBatch>10</HourlyBonusWeeklyKillsBatch>
-    <HourlyBonusSurvivor>10</HourlyBonusSurvivor>
-    <HourlyBonusHippy>5</HourlyBonusHippy>
-    <HourlyBonusPeaceMaker>10</HourlyBonusPeaceMaker>
-    <HourlyBonusWarMonger>10</HourlyBonusWarMonger>
-    <HourlyBonusLoneWolf>20</HourlyBonusLoneWolf>
+    <HourlyBonusDiplomaticPresence>500</HourlyBonusDiplomaticPresence>
+    <HourlyBonusPoliticalEngagement>250</HourlyBonusPoliticalEngagement>
+    <HourlyBonusDefenderOfTheNation>500</HourlyBonusDefenderOfTheNation>
+    <HourlyBonusNuclearSuperpower>250</HourlyBonusNuclearSuperpower>
+    <HourlyBonusWeeklyKillsBatch>100</HourlyBonusWeeklyKillsBatch>
+    <HourlyBonusSurvivor>100</HourlyBonusSurvivor>
+    <HourlyBonusHippy>50</HourlyBonusHippy>
+    <HourlyBonusPeaceMaker>100</HourlyBonusPeaceMaker>
+    <HourlyBonusWarMonger>100</HourlyBonusWarMonger>
+    <HourlyBonusLoneWolf>200</HourlyBonusLoneWolf>
     <LoneWolfDistance>15.0</LoneWolfDistance>
 
     <MissileSpeeds>
@@ -133,8 +133,8 @@
     </NukeBlastRadii>
 
     <MissileMaxDamages>
-        <MissileMaxDamage ID="1" MaxDamage="100"/>
-        <MissileMaxDamage ID="2" MaxDamage="250"/>
+        <MissileMaxDamage ID="1" MaxDamage="200"/>
+        <MissileMaxDamage ID="2" MaxDamage="300"/>
         <MissileMaxDamage ID="3" MaxDamage="400"/>
         <MissileMaxDamage ID="4" MaxDamage="500"/>
     </MissileMaxDamages>
@@ -156,13 +156,14 @@
     </InterceptorRanges>
 
     <MissileTypes>
-        <MissileType ID="1" Name="Shitty">
-            <Purchasable>false</Purchasable>
+        <MissileType ID="1" Name="NCR LOAN">
+	    <AssetID>1</AssetID>
+            <Purchasable>true</Purchasable>
             <SpeedIndex>1</SpeedIndex>
             <BlastRadiusIndex>1</BlastRadiusIndex>
-            <RangeIndex>1</RangeIndex>
-            <MaxDamageIndex>1</MaxDamageIndex>
-            <Nuclear>false</Nuclear>
+            <RangeIndex>2</RangeIndex>
+            <MaxDamageIndex>4</MaxDamageIndex>
+            <Nuclear>true</Nuclear>
             <Tracking>true</Tracking>
             <ECM>true</ECM>
         </MissileType>
