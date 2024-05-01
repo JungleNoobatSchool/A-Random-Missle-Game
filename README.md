@@ -1,4 +1,4 @@
-# Jungles Missle Command
+# A Random Missle Game
 Real World RTS for android
 
 Ignore my spelling, not my first language.
