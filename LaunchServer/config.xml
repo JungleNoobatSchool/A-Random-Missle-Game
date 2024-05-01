@@ -117,6 +117,7 @@
         <MissileRange ID="1" Range="5000"/>
         <MissileRange ID="2" Range="10000"/>
         <MissileRange ID="3" Range="22000"/>
+        <MissileRange ID="3" Range="42000"/>
     </MissileRanges>
 
     <MissileBlastRadii>
@@ -142,6 +143,7 @@
     <InterceptorSpeeds>
         <InterceptorSpeed ID="1" Speed="3000"/>
         <InterceptorSpeed ID="2" Speed="4000"/>
+	<InterceptorSpeed ID="3" Speed="6000"/>
     </InterceptorSpeeds>
 
     <InterceptorRanges>
@@ -368,14 +370,15 @@
             <Tracking>false</Tracking>
             <ECM>false</ECM>
         </MissileType>
-        <MissileType ID="105" Name="SCP-GEM">
+        <MissileType ID="105" Name="NATO Type 3">
+	    <AssetID>11</AssetID>
             <Purchasable>true</Purchasable>
             <SpeedIndex>3</SpeedIndex>
-            <BlastRadiusIndex>2</BlastRadiusIndex>
-            <RangeIndex>3</RangeIndex>
+            <BlastRadiusIndex>3</BlastRadiusIndex>
+            <RangeIndex>4</RangeIndex>
             <MaxDamageIndex>4</MaxDamageIndex>
             <Nuclear>true</Nuclear>
-            <Tracking>false</Tracking>
+            <Tracking>true</Tracking>
             <ECM>false</ECM>
         </MissileType>
     </MissileTypes>
@@ -426,10 +429,10 @@
             <RangeIndex>5</RangeIndex>
         </InterceptorType>
         <InterceptorType ID="40" Name="Lupid">
-            <AssetID>11</AssetID>
+            <AssetID>12</AssetID>
             <Purchasable>true</Purchasable>
-            <SpeedIndex>2</SpeedIndex>
-            <RangeIndex>5</RangeIndex>
+            <SpeedIndex>3</SpeedIndex>
+            <RangeIndex>6</RangeIndex>
         </InterceptorType>
         <InterceptorType ID="45" Name="Felid">
             <Purchasable>true</Purchasable>
